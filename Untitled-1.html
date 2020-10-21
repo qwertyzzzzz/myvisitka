@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+            <style>
+                html{
+    height:100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding:25px;
+    background-color: #bbbbb1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Montserrat', sans-serif;
+    background-image:url(https://avatars.mds.yandex.net/get-zen_doc/1654267/pub_5d5aadb44e057700ae848e4b_5d5ab809c31e4900ae89fefe/scale_1200);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.card{
+    background-color: white;
+    width: 600px;
+    flex-shrink:0;
+    display: flex;
+    padding: 25px;
+}
+.card-photo{
+    margin-right:20px;
+    display:flex;
+    align-items:flex-start;
+}
+.card-text {
+    background-color: white;
+}
+.card-text p{
+    font-size:12px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family:'Montserrat', sans-serif ;
+}
+.badge{
+    background-color:#00C8AD;
+    display:inline-block;
+    padding: 5px;
+    color:white;
+    font-weight:500;
+}
+.title{
+    margin-top:20px;
+    margin-bottom:0;
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    font-size:32px;
+}
+h1{
+    color: ;
+    text-decoration:none;
+}
+p{
+    color: goldenrod;
+}
+.subtitle{
+    margin-top:20;
+    margin-bottom:30;
+    font-weight:400;
+    color: ;
+}
+.btn{
+    background-color: gray;
+    padding:3px 5px;
+    color:#fff;
+    text-decoration:none;
+    margin-right: 10px;
+}
+.btn-vk{
+    background-color: #45668E;
+}
+@media only screen and (max-width: 1000px){
+body{
+    background-color:#189fff;
+}
+
+}
+@media(max-width: 800px){
+    body {
+        background-color: #acff18;
+    }
+   
+}
+@media (max-width: 600px){
+    .card{
+        width: 100%;
+    }
+}
+@media (max-width: 540px){
+    .card{
+        flex-direction:column;
+    }
+}
+@media(max-width:540px){
+    .card-photo{
+        margin-bottom: 30px;
+        width: auto;
+        max-width:250px;
+        margin-right:0;
+    }
+}
+.subtitle{
+    margin-top:0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #192c52;
+    font-size:28px;
+}
+@media (max-width: 540px){
+.title{
+    font-size: 32px;
+    line-height:1.2;
+    margin-bottom:5px;
+}
+.subtitle{
+    font-size:22px;
+    line-height:1.2;
+}
+}
+@media(max-width: 540px){
+    html{
+        height: auto;
+        min-height:100%;
+    }
+}
+@media (max-height: 800px){
+    html{
+        height:auto;
+        min-height:100%;
+    }
+    body{
+        height: auto;
+        min-height:100%;
+    }
+}
+            </style>
+            <meta charset="UTF-8">
+            <meta name="vieport" content="width=device-width, initial-scale=1/0">
+    </head>
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Oswald:wght@700&display=swap" rel="stylesheet"/>
+        <div class="card">
+        <div class="card-photo">
+        <img style="width:100%" src='https://s8.hostingkartinok.com/uploads/images/2020/10/2db88087c7cf1cd6c2a9dd81e32f05bd.jpg' alt='Yes'  />
+        </div>
+        <div class="card-text">
+        <div class="badge">Студент</div>
+         <h1 class="title">Поверина Дарья</h1>
+        <h4 class="subtitle">Создание визиток</h4>
+        <p>
+            <a  class="btn btn-vk" href="https://vk.com/id74690488" target="_blank"><i class="fab fa-vk"></i></i>Вконтакте</a>
+        </p>
+        </div>
+    </div>
