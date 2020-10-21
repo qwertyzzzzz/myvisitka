@@ -1,2 +1,2 @@
-# qwertyzzzzz.github.io
+# myvisitka.github.io
 Сайт с визиткой
